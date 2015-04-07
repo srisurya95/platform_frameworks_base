@@ -54,7 +54,11 @@ public interface NetworkController {
 
         public interface AccessPointCallback {
             void onAccessPointsChanged(AccessPoint[] accessPoints);
+<<<<<<< HEAD
             void onSettingsActivityTriggered(Intent intent);
+=======
+            void onSettingsActivityTriggered(Intent settingsIntent);
+>>>>>>> 3202bbc... Fix for launching wifi setting screen from statusbar.
         }
 
         public static class AccessPoint {
